@@ -2,6 +2,10 @@ const chalk = require("chalk"); //npm chalk, local de package-lock, para pintar 
 const yargs = require("yargs");
 const notes = require("./notes.js"); // require de file notes, para traer info que está dentro de esa file.
 
+//Challenge: Use chalk to provide useful logs for remove
+//
+// 1. If a notes is removed, print "Note removed!" with green background
+// 2. If no notes is removed, print "No note found!" with a red background
 //Customize yargs version
 yargs.version("1.1.0");
 
